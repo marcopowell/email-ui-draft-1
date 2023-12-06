@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(67, 67, 67);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 800px;
+}
+
+h1 {
+    color: white;
+}
+
+.nav-primary {
+    height: 550px;
+}
+
+.nav-secondary {
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.nav-selection {
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.nav-primary-img {
+    height: 100px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.nav-primary-items {
+    height: 30px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+
+}
+
+hr {
+    color: white;
+}
+
+.section-2-hr {
+    color: black;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+.email-preview-card {
+    background-color: rgb(231, 229, 229);
+}
+/*.email-content {
+    overflow-y: scroll;
+}*/
+
+@media (max-width: 576px) {
+
+    body {
+        height: 1200px;
+    }
+
+    .nav-primary {
+        height: 350px;
+        overflow-y: scroll;
+    }
+
+    .nav-secondary {
+        height: 350px;
+    }
+
+    .nav-selection {
+        height: 600px;
+    }
+    
+}
+
